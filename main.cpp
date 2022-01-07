@@ -4,7 +4,7 @@
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 480;
 int main(int argc, char* args[]) {
-    std::cout << "Hello, Sigge!" << std::endl;
+    std::cout << "Haj, Sigge!" << std::endl;
 
     //The window we'll be rendering to
     SDL_Window *window = NULL;
