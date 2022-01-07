@@ -6,10 +6,9 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.21"
+						"string" : "3.20.2"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -49,12 +48,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Joeld/Documents/GitHub/SDL_Project/cmake-build-debug",
-		"source" : "C:/Users/Joeld/Documents/GitHub/SDL_Project"
+		"build" : "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/cmake-build-debug",
+		"source" : "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 2
 	}
 }
