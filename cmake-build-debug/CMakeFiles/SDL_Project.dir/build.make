@@ -66,6 +66,7 @@ include CMakeFiles/SDL_Project.dir/progress.make
 include CMakeFiles/SDL_Project.dir/flags.make
 
 CMakeFiles/SDL_Project.dir/main.cpp.obj: CMakeFiles/SDL_Project.dir/flags.make
+CMakeFiles/SDL_Project.dir/main.cpp.obj: CMakeFiles/SDL_Project.dir/includes_CXX.rsp
 CMakeFiles/SDL_Project.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SDL_Project.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDL_Project.dir\main.cpp.obj -c C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\main.cpp
