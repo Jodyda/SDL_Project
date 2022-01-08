@@ -1,1 +1,1 @@
--IC:/SDL/include
+-IC:/SDL/include -IC:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/SDL_Project -IC:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/Includes -IC:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/Resources

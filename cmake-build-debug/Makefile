@@ -128,29 +128,77 @@ SDL_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/build
 .PHONY : SDL_Project/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/Engine.obj: src/Engine.cpp.obj
+.PHONY : src/Engine.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/Engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj
+.PHONY : src/Engine.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Engine.i: src/Engine.cpp.i
+.PHONY : src/Engine.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/Engine.cpp.i
+.PHONY : src/Engine.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Engine.s: src/Engine.cpp.s
+.PHONY : src/Engine.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/Engine.cpp.s
+.PHONY : src/Engine.cpp.s
+
+src/Session.obj: src/Session.cpp.obj
+.PHONY : src/Session.obj
+
+# target to build an object file
+src/Session.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/Session.cpp.obj
+.PHONY : src/Session.cpp.obj
+
+src/Session.i: src/Session.cpp.i
+.PHONY : src/Session.i
+
+# target to preprocess a source file
+src/Session.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/Session.cpp.i
+.PHONY : src/Session.cpp.i
+
+src/Session.s: src/Session.cpp.s
+.PHONY : src/Session.s
+
+# target to generate assembly for a file
+src/Session.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/Session.cpp.s
+.PHONY : src/Session.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDL_Project.dir\build.make CMakeFiles/SDL_Project.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SDL_Project
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Engine.obj
+	@echo ... src/Engine.i
+	@echo ... src/Engine.s
+	@echo ... src/Session.obj
+	@echo ... src/Session.i
+	@echo ... src/Session.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

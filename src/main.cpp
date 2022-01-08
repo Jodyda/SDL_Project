@@ -1,8 +1,22 @@
 #include <iostream>
+#include "Session.h"
+#include "Engine.h"
 #include <SDL.h>
 
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 480;
+Session session;
+
+
+
+int main(int argc, char** argv)
+{
+    session.run();
+    return 0;
+}
+
+
+/*
 int main(int argc, char* args[]) {
     std::cout << "Haj, Sigge!" << std::endl;
 
@@ -37,3 +51,6 @@ int main(int argc, char* args[]) {
     }
     return 0;
 }
+
+*/
+
