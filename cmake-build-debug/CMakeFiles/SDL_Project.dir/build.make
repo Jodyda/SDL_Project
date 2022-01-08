@@ -65,33 +65,65 @@ include CMakeFiles/SDL_Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SDL_Project.dir/flags.make
 
-CMakeFiles/SDL_Project.dir/main.cpp.obj: CMakeFiles/SDL_Project.dir/flags.make
-CMakeFiles/SDL_Project.dir/main.cpp.obj: CMakeFiles/SDL_Project.dir/includes_CXX.rsp
-CMakeFiles/SDL_Project.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SDL_Project.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDL_Project.dir\main.cpp.obj -c C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\main.cpp
+CMakeFiles/SDL_Project.dir/src/main.cpp.obj: CMakeFiles/SDL_Project.dir/flags.make
+CMakeFiles/SDL_Project.dir/src/main.cpp.obj: CMakeFiles/SDL_Project.dir/includes_CXX.rsp
+CMakeFiles/SDL_Project.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SDL_Project.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDL_Project.dir\src\main.cpp.obj -c C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\main.cpp
 
-CMakeFiles/SDL_Project.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDL_Project.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\main.cpp > CMakeFiles\SDL_Project.dir\main.cpp.i
+CMakeFiles/SDL_Project.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDL_Project.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\main.cpp > CMakeFiles\SDL_Project.dir\src\main.cpp.i
 
-CMakeFiles/SDL_Project.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDL_Project.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\main.cpp -o CMakeFiles\SDL_Project.dir\main.cpp.s
+CMakeFiles/SDL_Project.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDL_Project.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\main.cpp -o CMakeFiles\SDL_Project.dir\src\main.cpp.s
+
+CMakeFiles/SDL_Project.dir/src/Session.cpp.obj: CMakeFiles/SDL_Project.dir/flags.make
+CMakeFiles/SDL_Project.dir/src/Session.cpp.obj: CMakeFiles/SDL_Project.dir/includes_CXX.rsp
+CMakeFiles/SDL_Project.dir/src/Session.cpp.obj: ../src/Session.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SDL_Project.dir/src/Session.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDL_Project.dir\src\Session.cpp.obj -c C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\Session.cpp
+
+CMakeFiles/SDL_Project.dir/src/Session.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDL_Project.dir/src/Session.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\Session.cpp > CMakeFiles\SDL_Project.dir\src\Session.cpp.i
+
+CMakeFiles/SDL_Project.dir/src/Session.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDL_Project.dir/src/Session.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\Session.cpp -o CMakeFiles\SDL_Project.dir\src\Session.cpp.s
+
+CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj: CMakeFiles/SDL_Project.dir/flags.make
+CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj: CMakeFiles/SDL_Project.dir/includes_CXX.rsp
+CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj: ../src/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SDL_Project.dir\src\Engine.cpp.obj -c C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\Engine.cpp
+
+CMakeFiles/SDL_Project.dir/src/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDL_Project.dir/src/Engine.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\Engine.cpp > CMakeFiles\SDL_Project.dir\src\Engine.cpp.i
+
+CMakeFiles/SDL_Project.dir/src/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDL_Project.dir/src/Engine.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\src\Engine.cpp -o CMakeFiles\SDL_Project.dir\src\Engine.cpp.s
 
 # Object files for target SDL_Project
 SDL_Project_OBJECTS = \
-"CMakeFiles/SDL_Project.dir/main.cpp.obj"
+"CMakeFiles/SDL_Project.dir/src/main.cpp.obj" \
+"CMakeFiles/SDL_Project.dir/src/Session.cpp.obj" \
+"CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj"
 
 # External object files for target SDL_Project
 SDL_Project_EXTERNAL_OBJECTS =
 
-SDL_Project.exe: CMakeFiles/SDL_Project.dir/main.cpp.obj
+SDL_Project.exe: CMakeFiles/SDL_Project.dir/src/main.cpp.obj
+SDL_Project.exe: CMakeFiles/SDL_Project.dir/src/Session.cpp.obj
+SDL_Project.exe: CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj
 SDL_Project.exe: CMakeFiles/SDL_Project.dir/build.make
 SDL_Project.exe: CMakeFiles/SDL_Project.dir/linklibs.rsp
 SDL_Project.exe: CMakeFiles/SDL_Project.dir/objects1.rsp
 SDL_Project.exe: CMakeFiles/SDL_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SDL_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\edsim\Desktop\Plugg\CPROG\SDL_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SDL_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SDL_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

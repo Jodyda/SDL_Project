@@ -25,6 +25,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/SDL/include"/>
+					<Add directory="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/SDL_Project"/>
+					<Add directory="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/Includes"/>
+					<Add directory="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/Resources"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -48,6 +51,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/SDL/include"/>
+					<Add directory="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/SDL_Project"/>
+					<Add directory="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/Includes"/>
+					<Add directory="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/Resources"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -84,7 +90,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/main.cpp">
+		<Unit filename="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/src/Engine.cpp">
+			<Option target="SDL_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/src/Session.cpp">
+			<Option target="SDL_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/src/main.cpp">
 			<Option target="SDL_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/CMakeLists.txt">

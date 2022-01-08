@@ -8,13 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/main.cpp" "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/cmake-build-debug/CMakeFiles/SDL_Project.dir/main.cpp.obj"
+  "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/src/Engine.cpp" "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/cmake-build-debug/CMakeFiles/SDL_Project.dir/src/Engine.cpp.obj"
+  "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/src/Session.cpp" "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/cmake-build-debug/CMakeFiles/SDL_Project.dir/src/Session.cpp.obj"
+  "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/src/main.cpp" "C:/Users/edsim/Desktop/Plugg/CPROG/SDL_Project/cmake-build-debug/CMakeFiles/SDL_Project.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "C:/SDL/include"
+  "../SDL_Project"
+  "../Includes"
+  "../Resources"
   )
 
 # The set of dependency files which are needed:
